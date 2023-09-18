@@ -291,6 +291,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
 
 .sosial-a:hover {
