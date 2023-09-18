@@ -382,7 +382,9 @@ img {
     margin-bottom: 8px;
 }
 
-.portfolio-image-overlay:hover .overlay,
+.portfolio-image-overlay:hover .overlay, {
+    transform: translateY(0%);
+}
 .portfolio-image-overlay:focus {
     transform: translateY(0%);
 }
