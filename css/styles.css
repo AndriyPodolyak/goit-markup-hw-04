@@ -147,7 +147,11 @@ ul {
 .solutions-section {
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: url(/images/fotos/people-office.jpg);
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/fotos/img-mane.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .solutions-header {
@@ -184,6 +188,7 @@ ul {
     border: none;
     border-radius: 4px;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .solutions-button:hover {
