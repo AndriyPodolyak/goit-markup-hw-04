@@ -127,6 +127,7 @@ ul {
 .solutions-section {
     background-color: #2E2F42;
     padding: 188px 0;
+    background-image: url(/images/fotos/people-office.jpg);
 }
 
 .solutions-header {
@@ -188,6 +189,16 @@ ul {
 .our-advantages-ul {
     display: flex;
     gap: 24px;
+}
+
+.icons-advantages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .our-advantages-li {
